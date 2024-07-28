@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1027.63 848.12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-3 {
+        fill: #f2f2f2;
+      }
+
+      .cls-4 {
+        fill: #603813;
+      }
+
+      .cls-5 {
+        fill: #333;
+      }
+
+      .cls-6 {
+        fill: #ff7bac;
+      }
+
+      .cls-7 {
+        fill: #42210b;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="511.33" cy="424.06" fx="511.33" fy="424.06" r="424.06" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".55" stop-color="#fcfcfc"/>
+      <stop offset=".79" stop-color="#f5f5f5"/>
+      <stop offset=".97" stop-color="#e9e9e9"/>
+      <stop offset="1" stop-color="#e6e6e6"/>
+    </radialGradient>
+  </defs>
+  <ellipse class="cls-4" cx="174.4" cy="424.06" rx="343.55" ry="146.13" transform="translate(-282.69 460.28) rotate(-72.18)"/>
+  <ellipse class="cls-4" cx="850.47" cy="423.51" rx="146.13" ry="343.55" transform="translate(-91.09 296.53) rotate(-18.79)"/>
+  <circle class="cls-2" cx="511.33" cy="424.06" r="424.06"/>
+  <circle class="cls-4" cx="256.56" cy="372.22" r="178.67"/>
+  <circle class="cls-4" cx="766.79" cy="366.16" r="184.73"/>
+  <g>
+    <circle class="cls-3" cx="311.98" cy="360.92" r="72.24"/>
+    <circle class="cls-7" cx="300.13" cy="349.61" r="57.35"/>
+    <circle cx="300.13" cy="349.61" r="45.77"/>
+    <circle class="cls-3" cx="292.41" cy="329.76" r="13.79"/>
+    <circle class="cls-3" cx="321.08" cy="374.98" r="4.96"/>
+  </g>
+  <g>
+    <circle class="cls-3" cx="698.72" cy="360.77" r="72.24"/>
+    <circle class="cls-7" cx="686.87" cy="349.46" r="57.35"/>
+    <circle cx="686.87" cy="349.46" r="45.77"/>
+    <circle class="cls-3" cx="679.15" cy="329.61" r="13.79"/>
+    <circle class="cls-3" cx="707.82" cy="374.83" r="4.96"/>
+  </g>
+  <circle class="cls-6" cx="511.33" cy="762.09" r="36.95"/>
+  <ellipse class="cls-1" cx="590.19" cy="717.98" rx="78.86" ry="56.8"/>
+  <ellipse class="cls-1" cx="432.47" cy="717.98" rx="78.86" ry="56.8"/>
+  <g>
+    <ellipse class="cls-5" cx="509.12" cy="613.75" rx="133.45" ry="72.79"/>
+    <circle cx="463.91" cy="654.56" r="27.57"/>
+    <circle cx="547.73" cy="654.56" r="27.57"/>
+  </g>
+</svg>

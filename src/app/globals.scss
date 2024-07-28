@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  // Maven Pro
+  @font-face {
+    font-family: "Maven Pro";
+    font-weight: variable-exists($name: MavenPro-VariableFont_wght);
+    font-display: swap;
+    src: url(./../assets/fonts/maven_pro/MavenPro-VariableFont_wght.ttf)
+      format(truetype);
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,12 +29,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  // background: linear-gradient(
+  //     to bottom,
+  //     transparent,
+  //     rgb(var(--background-end-rgb))
+  //   )
+  //   rgb(var(--background-start-rgb));
 }
 
 @layer utilities {

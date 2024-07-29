@@ -14,27 +14,45 @@
 }
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+  --flow-spacer: var(--spacer-primary);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --spacer-primary: theme("spacing.4");
+  --spacer-secondary: theme("spacing.2");
+  --spacer-lg: theme("spacing.7");
+  --spacer-xl: theme("spacing.8");
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  // background: linear-gradient(
-  //     to bottom,
-  //     transparent,
-  //     rgb(var(--background-end-rgb))
-  //   )
-  //   rgb(var(--background-start-rgb));
+}
+
+a {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+button {
+  color: theme("colors.stone.50");
+  background-color: theme("colors.stone.500");
+  border-radius: theme("borderRadius.sm");
+  box-shadow: theme("boxShadow.md");
+  padding-block: theme("spacing.3");
+  padding-inline: theme("spacing.4");
+  font-weight: theme("fontWeight.medium");
+  font-family: theme("fontFamily.heading");
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: theme("colors.stone.600");
+  }
+}
+
+.flow {
+  --_flow-spacer: var(--flow-spacer);
+
+  & > * + * {
+    margin-block-start: var(--_flow-spacer);
+  }
 }
 
 @layer utilities {

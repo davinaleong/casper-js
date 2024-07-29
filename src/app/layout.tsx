@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="text-stone-500 bg-stone-50 dark:bg-stone-950 | flow">
-        <header className="container">
+        <header className="container mx-auto">
           <Link href="/" className="flex gap-4 justify-center">
             <Image src={logo.src} alt="Casper.js logo" width="64" height="64" />
             <h1 className="font-heading text-4xl font-bold text-center">
@@ -26,9 +26,9 @@ export default function RootLayout({
           </Link>
         </header>
 
-        <div className="container | flow">{children}</div>
+        <div className="container mx-auto | flow">{children}</div>
 
-        <footer className="container">
+        <footer className="container mx-auto">
           <p className="text-center text-sm">
             casper.js &copy; Davina Leong, 2024
           </p>

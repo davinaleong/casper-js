@@ -1,12 +1,19 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
+import { GoogleAnalytics } from "@next/third-parties/google"
 import logo from "./../assets/images/logo-svg.svg"
 import "./globals.scss"
 
 export const metadata: Metadata = {
   title: "casper.js",
-  description: "A collage of photos of my dog, Casper.",
+  description:
+    "Discover adorable random photos of Casper, the King Charles Spaniel, with Casper.js, a sleek and modern web app built using Next.js, Sass, TypeScript, Cloudinary, and Tailwind CSS.",
+  keywords:
+    "Casper.js, King Charles Spaniel, Casper dog photos, random dog photo app, Next.js dog app, Sass, TypeScript, Cloudinary, Tailwind CSS, dog photo generator, web app, pet photography, dog lovers, spaniel pictures, cute dog photos, Next.js, web development",
+  authors: {
+    name: "Davina Leong",
+  },
 }
 
 export default function RootLayout({
@@ -28,12 +35,13 @@ export default function RootLayout({
 
         <div className="container mx-auto | flow">{children}</div>
 
-        <footer className="container mx-auto">
+        <footer className="container mx-auto pb-4">
           <p className="text-center text-sm">
             casper.js &copy; Davina Leong, 2024
           </p>
         </footer>
       </body>
+      <GoogleAnalytics gaId="G-XYZ" />
     </html>
   )
 }

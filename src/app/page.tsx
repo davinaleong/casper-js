@@ -1,27 +1,18 @@
 "use client"
 
-import { CldImage } from "next-cloudinary"
+import images from "@/images"
+import { getRandomElement } from "@/lib/helpers"
+
+const image: any = getRandomElement(images)
 
 export default function Home() {
   return (
     <main className="flow">
-      <CldImage
-        className="mx-auto rounded-sm shadow-md"
-        src="0085_jscw28"
-        width="667"
-        height="501"
-        alt="Photo of Casper"
-        crop={{
-          type: "auto",
-          source: true,
-        }}
-      />
+      {image}
 
-      <div className="text-center mt-4">
-        <button type="button" className="btn">
-          Get a new Dog Picture
-        </button>
-      </div>
+      <p className="text-center text-lg">
+        Refresh the page to get a new dog photo.
+      </p>
     </main>
   )
 }

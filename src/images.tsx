@@ -1039,31 +1039,7 @@ const images: JSX.Element[] = [
   <CldImage
     key={key++}
     className={className}
-    src="0003_ozye9o"
-    width="501"
-    height="667"
-    alt={alt}
-    crop={{
-      type: "auto",
-      source: true,
-    }}
-  />,
-  <CldImage
-    key={key++}
-    className={className}
     src="0091_p1vom6"
-    width="501"
-    height="667"
-    alt={alt}
-    crop={{
-      type: "auto",
-      source: true,
-    }}
-  />,
-  <CldImage
-    key={key++}
-    className={className}
-    src="0001_rhxod7"
     width="501"
     height="667"
     alt={alt}

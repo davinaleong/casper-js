@@ -1,4 +1,5 @@
 "use client"
+
 import { useState } from "react"
 import images from "@/images"
 import { getRandomElement } from "@/lib/helpers"
@@ -26,10 +27,6 @@ export default function Home() {
           Get another Dog photo
         </button>
       </div>
-
-      <p className="text-center text-lg">
-        Refresh the page to get a new dog photo.
-      </p>
     </main>
   )
 }

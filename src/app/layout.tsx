@@ -28,14 +28,14 @@ export default function RootLayout({
           <Link href="/" className="flex gap-4 justify-center">
             <Image src={logo.src} alt="Casper.js logo" width="64" height="64" />
             <h1 className="font-heading text-4xl font-bold text-center">
-              Casper.js
+              My Favorite Cavalier King Charles Spaniel
             </h1>
-            <p>
-              Casper is my Cavalier King Charles Spaniel. He is a medium-sized
-              dog, about 11 years old. He used to have a rash around his paws
-              but is doing fine now with medication.
-            </p>
           </Link>
+          <p>
+            Casper is my Cavalier King Charles Spaniel. He is a medium-sized
+            dog, about 11 years old. He used to have a rash around his paws but
+            is doing fine now with medication.
+          </p>
         </header>
 
         <div className="container mx-auto | flow">{children}</div>

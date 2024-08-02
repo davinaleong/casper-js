@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Discover adorable random photos of Casper, the King Charles Spaniel, with Casper.js, a sleek and modern web app built using Next.js, Sass, TypeScript, Cloudinary, and Tailwind CSS.",
   keywords:
-    "Casper.js, King Charles Spaniel, Casper dog photos, random dog photo app, Next.js dog app, Sass, TypeScript, Cloudinary, Tailwind CSS, dog photo generator, web app, pet photography, dog lovers, spaniel pictures, cute dog photos, Next.js, web development",
+    "Casper.js, Cavalier King Charles Spaniel, Casper dog photos, random dog photo app, Next.js dog app, Sass, TypeScript, Cloudinary, Tailwind CSS, dog photo generator, web app, pet photography, dog lovers, spaniel pictures, cute dog photos, Next.js, web development",
   authors: {
     name: "Davina Leong",
   },

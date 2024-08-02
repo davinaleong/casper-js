@@ -6,11 +6,11 @@ import logo from "./../assets/images/logo-svg.svg"
 import "./globals.scss"
 
 export const metadata: Metadata = {
-  title: "casper.js",
+  title: "My Favorite Cavalier King Charles Spaniel",
   description:
-    "Discover adorable random photos of Casper, the King Charles Spaniel, with Casper.js, a sleek and modern web app built using Next.js, Sass, TypeScript, Cloudinary, and Tailwind CSS.",
+    "Discover adorable random photos of Casper, the King Charles Spaniel, with 'My Favorite Cavalier King Charles Spaniel', a sleek and modern web app built using Next.js, Sass, TypeScript, Cloudinary, and Tailwind CSS.",
   keywords:
-    "Casper.js, Cavalier King Charles Spaniel, Casper dog photos, random dog photo app, Next.js dog app, Sass, TypeScript, Cloudinary, Tailwind CSS, dog photo generator, web app, pet photography, dog lovers, spaniel pictures, cute dog photos, Next.js, web development",
+    "My Favorite Cavalier King Charles Spaniel, Cavalier King Charles Spaniel, Casper dog photos, random dog photo app, Next.js dog app, Sass, TypeScript, Cloudinary, Tailwind CSS, dog photo generator, web app, pet photography, dog lovers, spaniel pictures, cute dog photos, Next.js, web development",
   authors: {
     name: "Davina Leong",
   },
@@ -30,6 +30,11 @@ export default function RootLayout({
             <h1 className="font-heading text-4xl font-bold text-center">
               Casper.js
             </h1>
+            <p>
+              Casper is my Cavalier King Charles Spaniel. He is a medium-sized
+              dog, about 11 years old. He used to have a rash around his paws
+              but is doing fine now with medication.
+            </p>
           </Link>
         </header>
 
